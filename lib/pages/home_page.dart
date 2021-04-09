@@ -8,7 +8,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bender'),
+        title: Text('Bender Bending Rodriguez and Philip J. Fry'),
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.arrow_back),
