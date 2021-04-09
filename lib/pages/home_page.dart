@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_page_view/widgets/bender_widget.dart';
-import 'package:flutter_web_page_view/widgets/fry_widget.dart';
+import 'package:flutter_web_page_view/widget/bender_widget.dart';
+import 'package:flutter_web_page_view/widget/fry_widget.dart';
 
 class MyHomePage extends StatelessWidget {
   final PageController _controller = PageController(initialPage: 0);
