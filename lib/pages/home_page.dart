@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_page_view/widgets/bender_widget.dart';
+import 'package:flutter_web_page_view/widgets/fry_widget.dart';
 
 class MyHomePage extends StatelessWidget {
   final PageController _controller = PageController(initialPage: 0);
@@ -20,7 +21,11 @@ class MyHomePage extends StatelessWidget {
         controller: _controller,
         scrollDirection: Axis.horizontal,
         itemBuilder: (context, index) {
-          return BenderWidget();
+          if (index % 2 == 0) {
+            return FryWidget();
+          } else {
+            return BenderWidget();
+          }
         },
       ),
     );

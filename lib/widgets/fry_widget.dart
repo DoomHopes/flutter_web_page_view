@@ -2,12 +2,12 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class BenderWidget extends StatefulWidget {
+class FryWidget extends StatefulWidget {
   @override
-  _BenderWidgetState createState() => _BenderWidgetState();
+  _FryWidgetState createState() => _FryWidgetState();
 }
 
-class _BenderWidgetState extends State<BenderWidget> {
+class _FryWidgetState extends State<FryWidget> {
   Color benderColor;
 
   @override
@@ -26,10 +26,8 @@ class _BenderWidgetState extends State<BenderWidget> {
       color: benderColor,
       child: Center(
         child: Image.network(
-            'https://upload.wikimedia.org/wikipedia/ru/a/a6/Bender_Rodriguez.png'),
+            'https://upload.wikimedia.org/wikipedia/ru/thumb/9/97/Philip_J._Fry.png/248px-Philip_J._Fry.png'),
       ),
     );
   }
 }
-
-// bender https://upload.wikimedia.org/wikipedia/ru/a/a6/Bender_Rodriguez.png
